@@ -1,4 +1,5 @@
 let weather = {
+    // change to you API key
     apiKey: "75c2c62bcc5dc8fde88f31bd3218f885",
     fetchWeather: function (city) {
       fetch(
@@ -50,5 +51,5 @@ let weather = {
         weather.search();
       }
     });
-  
+  // Change it to whatever city you live in
   weather.fetchWeather("Brooklyn");
